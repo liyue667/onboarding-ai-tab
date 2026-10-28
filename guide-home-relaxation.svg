@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">客厅观影方案</title>
+  <desc id="desc">根据观影需求安排客厅设备：调暗客厅主灯，关闭客厅窗帘，将氛围灯调为柔和暖光。方案待确认，确认后执行。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10285d"/>
+      <stop offset="1" stop-color="#28164f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#49a9ff"/>
+      <stop offset="1" stop-color="#dc70dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" rx="32" fill="url(#bg)"/>
+  <circle cx="820" cy="70" r="220" fill="#667cff" opacity=".12"/>
+  <circle cx="85" cy="595" r="180" fill="#a56bed" opacity=".06"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" fill="#f7f9ff">
+    <text x="64" y="64" font-size="22" fill="#9fc9ff">超级小爱 · 场景方案</text>
+    <text x="64" y="117" font-size="42" font-weight="600">客厅观影方案</text>
+    <text x="64" y="155" font-size="22" fill="#b8c5e2">联动灯光和窗帘，营造舒适观影氛围</text>
+    <rect x="780" y="76" width="116" height="44" rx="22" fill="#97b8ff" fill-opacity=".14" stroke="#b8c8ff" stroke-opacity=".22"/>
+    <circle cx="803" cy="98" r="4" fill="#abc9ff"/>
+    <text x="846" y="105" font-size="21" text-anchor="middle" fill="#d3e2ff">待确认</text>
+
+    <rect x="64" y="188" width="832" height="98" rx="22" fill="#ffffff" fill-opacity=".085" stroke="#b8c8ff" stroke-opacity=".16"/>
+    <circle cx="124" cy="237" r="31" fill="#75baff" fill-opacity=".16"/>
+    <g fill="none" stroke="#a2d6ff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M111 232a13 13 0 1 1 26 0c0 7-6 9-7 15h-12c-1-6-7-8-7-15zM119 254h10M124 210v-6M103 219l-4-4M145 219l4-4"/>
+    </g>
+    <text x="180" y="231" font-size="31" font-weight="600">调暗客厅主灯</text>
+    <text x="180" y="266" font-size="22" fill="#b8c5e2">减少屏幕反光</text>
+    <text x="854" y="245" font-size="24" text-anchor="end" fill="#a2d6ff">01</text>
+
+    <rect x="64" y="301" width="832" height="98" rx="22" fill="#ffffff" fill-opacity=".085" stroke="#b8c8ff" stroke-opacity=".16"/>
+    <circle cx="124" cy="350" r="31" fill="#a295ff" fill-opacity=".17"/>
+    <g fill="none" stroke="#c6bdff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M105 334h38M108 335v32h32v-32M119 337v27M129 337v27"/>
+    </g>
+    <text x="180" y="344" font-size="31" font-weight="600">关闭客厅窗帘</text>
+    <text x="180" y="379" font-size="22" fill="#b8c5e2">遮挡外界光线</text>
+    <text x="854" y="358" font-size="24" text-anchor="end" fill="#c6bdff">02</text>
+
+    <rect x="64" y="414" width="832" height="98" rx="22" fill="#ffffff" fill-opacity=".085" stroke="#b8c8ff" stroke-opacity=".16"/>
+    <circle cx="124" cy="463" r="31" fill="#e5ad7e" fill-opacity=".14"/>
+    <g fill="none" stroke="#ffd5ab" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m116 447-8 20h32l-8-20zM124 468v12M114 481h20M104 448l-4-3M144 448l4-3"/>
+    </g>
+    <text x="180" y="457" font-size="31" font-weight="600">氛围灯调为柔和暖光</text>
+    <text x="180" y="492" font-size="22" fill="#b8c5e2">保留柔和照明</text>
+    <text x="854" y="471" font-size="24" text-anchor="end" fill="#ffd5ab">03</text>
+
+    <rect x="64" y="541" width="4" height="22" rx="2" fill="url(#accent)"/>
+    <text x="84" y="560" font-size="22" fill="#c6d2ef">方案已整理，确认后执行</text>
+  </g>
+</svg>

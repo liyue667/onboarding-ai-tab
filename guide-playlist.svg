@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">睡前轻音乐歌单</title>
+  <desc id="desc">按钢琴、吉他、钢琴、吉他的顺序交替播放，舒缓开场，节奏逐渐放缓，越往后越舒缓。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10265a"/>
+      <stop offset="1" stop-color="#29174e"/>
+    </linearGradient>
+    <linearGradient id="tempo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#62b4ff"/>
+      <stop offset="1" stop-color="#c59cec"/>
+    </linearGradient>
+    <g id="piano" fill="none" stroke="#abd9ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="0" width="42" height="30" rx="4"/>
+      <path d="M10.5 1v28M21 1v28M31.5 1v28"/>
+      <path d="M10.5 2v13M21 2v13M31.5 2v13" stroke-width="6"/>
+    </g>
+    <g id="guitar" fill="none" stroke="#e6bafa" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m26 12 9-9 4 4-10 10c5 7-1 10-4 10 0 5-4 10-10 10C4 37 0 26 7 20c2-2 5-3 8-2 0-5 5-9 11-6z"/>
+      <circle cx="21" cy="23" r="4"/>
+      <path d="m13 31 21-23M9 28l7 7"/>
+    </g>
+  </defs>
+  <rect width="960" height="600" rx="32" fill="url(#bg)"/>
+  <circle cx="790" cy="90" r="210" fill="#637fff" opacity=".12"/>
+  <circle cx="95" cy="585" r="180" fill="#a56bed" opacity=".06"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" fill="#f7f9ff">
+    <text x="64" y="64" font-size="22" fill="#9fc9ff">超级小爱 · 歌单编排</text>
+    <text x="64" y="117" font-size="42" font-weight="600">睡前轻音乐</text>
+    <text x="64" y="155" font-size="22" fill="#b8c5e2">适合睡前聆听，钢琴与吉他交替</text>
+    <path d="M846 68a30 30 0 1 0 37 39 27 27 0 0 1-37-39z" fill="#d1c0ff" fill-opacity=".6"/>
+    <circle cx="889" cy="64" r="3" fill="#c1c9ff"/>
+
+    <text x="64" y="203" font-size="22" fill="#b8c5e2">按顺序交替播放</text>
+    <rect x="64" y="224" width="187" height="134" rx="22" fill="#80b9ff" fill-opacity=".11" stroke="#a9c1ff" stroke-opacity=".2"/>
+    <text x="86" y="257" font-size="21" fill="#9fc9ff">01</text>
+    <use href="#piano" x="181" y="244"/>
+    <text x="157" y="327" font-size="32" font-weight="600" text-anchor="middle">钢琴</text>
+
+    <rect x="279" y="224" width="187" height="134" rx="22" fill="#bf94ea" fill-opacity=".11" stroke="#c6a9ff" stroke-opacity=".2"/>
+    <text x="301" y="257" font-size="21" fill="#d4b6f5">02</text>
+    <use href="#guitar" x="399" y="239"/>
+    <text x="372" y="327" font-size="32" font-weight="600" text-anchor="middle">吉他</text>
+
+    <rect x="494" y="224" width="187" height="134" rx="22" fill="#80b9ff" fill-opacity=".11" stroke="#a9c1ff" stroke-opacity=".2"/>
+    <text x="516" y="257" font-size="21" fill="#9fc9ff">03</text>
+    <use href="#piano" x="611" y="244"/>
+    <text x="587" y="327" font-size="32" font-weight="600" text-anchor="middle">钢琴</text>
+
+    <rect x="709" y="224" width="187" height="134" rx="22" fill="#bf94ea" fill-opacity=".11" stroke="#c6a9ff" stroke-opacity=".2"/>
+    <text x="731" y="257" font-size="21" fill="#d4b6f5">04</text>
+    <use href="#guitar" x="829" y="239"/>
+    <text x="802" y="327" font-size="32" font-weight="600" text-anchor="middle">吉他</text>
+    <g fill="none" stroke="#a8b8dc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M258 291h13m-5-5 5 5-5 5M473 291h13m-5-5 5 5-5 5M688 291h13m-5-5 5 5-5 5"/>
+    </g>
+
+    <rect x="64" y="387" width="832" height="162" rx="24" fill="#ffffff" fill-opacity=".075" stroke="#b8c8ff" stroke-opacity=".16"/>
+    <text x="92" y="427" font-size="22" fill="#b8c5e2">越往后，节奏越舒缓</text>
+    <path d="M102 468H858" fill="none" stroke="url(#tempo)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="102" cy="468" r="8" fill="#74beff"/>
+    <circle cx="480" cy="468" r="8" fill="#a7b1f5"/>
+    <circle cx="858" cy="468" r="8" fill="#c59cec"/>
+    <text x="92" y="517" font-size="25" font-weight="600">舒缓开场</text>
+    <text x="480" y="517" font-size="25" font-weight="600" text-anchor="middle">逐渐放缓</text>
+    <text x="868" y="517" font-size="25" font-weight="600" text-anchor="end">更轻柔舒缓</text>
+  </g>
+</svg>

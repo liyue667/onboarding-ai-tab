@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">已记住做饭时的音乐偏好</title>
+  <desc id="desc">使用场景：做饭时。音乐偏好：粤语老歌。下次说“我要做饭了，放点歌听听”，小爱会优先推荐粤语老歌。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13275d"/>
+      <stop offset="1" stop-color="#24164e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58b5ff"/>
+      <stop offset="1" stop-color="#d875e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" rx="32" fill="url(#bg)"/>
+  <circle cx="790" cy="80" r="210" fill="#647cff" opacity=".12"/>
+  <circle cx="90" cy="570" r="190" fill="#b765d9" opacity=".08"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" fill="#f7f9ff">
+    <text x="64" y="65" font-size="22" fill="#9fc9ff">超级小爱 · 记忆偏好</text>
+    <text x="64" y="119" font-size="42" font-weight="600">已记住你的偏好</text>
+    <text x="64" y="158" font-size="22" fill="#b8c5e2">把生活场景和你的喜好一起记住</text>
+
+    <rect x="64" y="193" width="832" height="204" rx="26" fill="#ffffff" fill-opacity=".09" stroke="#b8c8ff" stroke-opacity=".18"/>
+    <circle cx="128" cy="267" r="34" fill="#58b5ff" fill-opacity=".18"/>
+    <g fill="none" stroke="#9fd7ff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M110 266h36v9a12 12 0 0 1-12 12h-12a12 12 0 0 1-12-12zM146 271h9M104 271h6"/>
+      <path d="M119 257c-7-6 6-9 0-16M131 257c-7-6 6-9 0-16"/>
+    </g>
+    <text x="181" y="251" font-size="22" fill="#b8c5e2">使用场景</text>
+    <text x="181" y="294" font-size="36" font-weight="600">做饭时</text>
+    <line x1="462" y1="229" x2="462" y2="309" stroke="#ffffff" stroke-opacity=".12"/>
+    <circle cx="528" cy="267" r="34" fill="#cf82ef" fill-opacity=".16"/>
+    <path d="M525 277v-26l21-5v26M525 258l21-5" fill="none" stroke="#e4b5ff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="519" cy="279" rx="7" ry="5" fill="#e4b5ff"/>
+    <ellipse cx="540" cy="274" rx="7" ry="5" fill="#e4b5ff"/>
+    <text x="581" y="251" font-size="22" fill="#b8c5e2">音乐偏好</text>
+    <text x="581" y="294" font-size="36" font-weight="600">粤语老歌</text>
+    <line x1="96" y1="329" x2="864" y2="329" stroke="#ffffff" stroke-opacity=".1"/>
+    <circle cx="112" cy="363" r="14" fill="#55d9ad" fill-opacity=".16"/>
+    <path d="m105 363 5 5 9-11" fill="none" stroke="#9effd9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="138" y="371" font-size="22" fill="#aceddc">已保存这条偏好</text>
+
+    <rect x="64" y="420" width="832" height="132" rx="24" fill="#58b5ff" fill-opacity=".06" stroke="#91b7ff" stroke-opacity=".2"/>
+    <text x="92" y="457" font-size="22" fill="#9fc9ff">下次你可以说</text>
+    <text x="92" y="497" font-size="30" font-weight="600">“我要做饭了，放点歌听听”</text>
+    <text x="92" y="532" font-size="22" fill="#c4cde5">小爱会优先推荐粤语老歌</text>
+    <rect x="64" y="577" width="832" height="3" rx="1.5" fill="url(#accent)" opacity=".9"/>
+  </g>
+</svg>
